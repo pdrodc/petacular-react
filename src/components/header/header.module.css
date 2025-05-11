@@ -1,0 +1,39 @@
+.header {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--graybg);
+  width: 100%;
+}
+
+.wrapperHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--blue);
+}
+
+.ulMenu {
+  display: flex;
+  gap: 40px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.ulMenu a {
+  color: var(--black);
+}
+
+.ulMenu a:hover {
+  transition: all 0.3s ease-in-out;
+  color: var(--blue);
+}
+
+.ulIcons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
