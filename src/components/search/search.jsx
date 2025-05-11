@@ -4,7 +4,7 @@ import { Search } from "lucide-react";
 const SearchBar = () => {
   return (
     <div className={styles.search}>
-      <input type="text" placeholder="O que seu pet precisa?" />
+      <input type="text" placeholder="O que você precisa?" />
       <button className={styles.searchButton}><Search /></button>
     </div>
   );

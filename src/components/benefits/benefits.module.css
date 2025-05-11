@@ -1,7 +1,11 @@
+.benefitsWrapper {
+    padding-bottom: 2rem;
+}
+
 .benefitsContent {
     display: flex;
     justify-content: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .benefitsCards {

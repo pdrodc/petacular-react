@@ -3,6 +3,7 @@ import { BadgeDollarSign } from "lucide-react";
 import { Truck } from "lucide-react";
 import { ClockFading } from "lucide-react";
 import { Store } from 'lucide-react';
+import { PawPrint } from 'lucide-react';
 
 const Benefits = () => {
   return (
@@ -36,9 +37,9 @@ const Benefits = () => {
             <p>Você pode fazer a retirada das suas compras em nossas lojas!</p>
           </div>
           <div className={styles.cardWrapper}>
-            <BadgeDollarSign />
-            <h3>Desconto em produtos</h3>
-            <p>Você pode garantir descontos de até 70% em produtos!</p>
+            <PawPrint />
+            <h3>Desconto no AdestraPet</h3>
+            <p>Descontaço de 25% para o melhor programa de adestramento!</p>
           </div>
         </div>
       </div>

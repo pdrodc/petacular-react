@@ -1,0 +1,28 @@
+.wrapperCares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 2rem;
+}
+
+.caresContent {
+    font-size: 20px;
+}
+
+.wrapperCares img {
+    display: flex;
+    width: 35%;
+    border-radius: 20px;
+}
+
+.adestramentoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.adestramentoContent {
+    font-size: 20px;
+}

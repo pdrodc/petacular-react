@@ -9,7 +9,7 @@ const Header = () => {
         <h1 className={styles.logo}>Petacular</h1>
         <nav className={styles.nav}>
           <ul className={styles.ulMenu}>
-            <li><a href="">Home</a></li>
+            <li><a href="">Início</a></li>
             <li><a href="">Cachorros</a></li>
             <li><a href="">Gatos</a></li>
             <li><a href="">Outros Pets</a></li>
