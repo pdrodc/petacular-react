@@ -1,8 +1,12 @@
+.Products {
+    padding-bottom: 4rem;
+}
+
 .productsContent {
     display: flex;
     justify-content: center;
     padding: 16px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .productsNav {
@@ -48,4 +52,25 @@
 
 .productWrapper button:hover svg {
     transform: translateX(4px);
+}
+
+.productWrapper button:hover {
+    background-color: #000088;
+}
+
+.productWrapper:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .wrapperProducts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .productsNav {
+        flex-direction: column;
+    }
 }

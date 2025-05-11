@@ -40,3 +40,15 @@ img {
 .modernButton:hover svg {
     transform: translateX(4px);
 }
+
+@media (max-width: 768px) {
+  .wrapperHero {
+    flex-direction: column;
+  }
+  .heroContent {
+    font-size: 24px;
+  }
+  img {
+    width: 100%;
+  }
+}

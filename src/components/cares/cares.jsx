@@ -8,7 +8,7 @@ const Cares = () => {
       <div className={styles.wrapperCares}>
         <div className={styles.caresContent}>
           <h2>O Melhor tratamento para seu Pet!</h2>
-          <p>Todo o cuidado que seu pet precisa, em um só lugar!</p>
+          <p>Todo o cuidado que seu pet precisa, você encontra apenas aqui na <span>Petacular</span>!</p>
         </div>
         <img src={ImgCares} alt="" />
         </div>

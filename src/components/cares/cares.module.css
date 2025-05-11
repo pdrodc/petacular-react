@@ -1,3 +1,7 @@
+.Cares {
+    padding-bottom: 4rem;
+}
+
 .wrapperCares {
     display: flex;
     justify-content: center;
@@ -10,19 +14,28 @@
     font-size: 20px;
 }
 
+.caresContent p {
+    max-width: 40ch;
+}
+
+.caresContent span {
+    color: var(--blue);
+}
+
 .wrapperCares img {
     display: flex;
     width: 35%;
     border-radius: 20px;
 }
 
-.adestramentoWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
-.adestramentoContent {
-    font-size: 20px;
+@media (max-width: 768px) {
+    .wrapperCares {
+        flex-direction: column;
+    }
+    .wrapperCares img {
+        width: 100%;
+    }
+    .caresContent {
+        text-align: center;
+    }
 }
