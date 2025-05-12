@@ -41,7 +41,6 @@
 #buttonMobile {
   display: none;
   color: black;
-  padding-left: 22rem;
 }
 
 @media (max-width: 768px) {
@@ -80,7 +79,7 @@
   }
   .logo {
     font-size: 20px;
-    display: block;
-    gap: 20px;
+    display: flex;
+    justify-content:space-between;
   }
 }
