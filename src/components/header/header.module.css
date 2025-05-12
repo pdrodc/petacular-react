@@ -50,6 +50,7 @@
   #buttonMobile {
     display: block;
     background: transparent;
+    align-items: flex-end;
     border: none;
   }
   #menuIcons {
@@ -76,10 +77,12 @@
 
   .active .navLi {
     text-align: center;
-  }
+   }
+   .wrapperHeader{
+display:flex;
+justify-content: space-between;
+}
   .logo {
     font-size: 20px;
-    display: flex;
-    justify-content:space-between;
   }
 }
