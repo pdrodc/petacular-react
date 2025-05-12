@@ -48,7 +48,7 @@
     display: none;
   }
   #buttonMobile {
-    display: block;
+    display: flex;
     background: transparent;
     align-items: flex-end;
     border: none;
@@ -78,10 +78,6 @@
   .active .navLi {
     text-align: center;
    }
-   .wrapperHeader{
-display:flex;
-justify-content: space-between;
-}
   .logo {
     font-size: 20px;
   }
